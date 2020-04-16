@@ -1,5 +1,4 @@
-
-.header{
+header{
   height:80px;
   position: fixed;
   top:0;
@@ -30,8 +29,8 @@ a:hover{
   opacity:1;
 }
 /*ここから下はmain*/
-.main{
-  height:1200px;
+main{
+  height:1000px;
 }
 
 .main-container img {
@@ -39,9 +38,8 @@ a:hover{
   height: 100%;
 }
 .main-container p{
- font-size: 15px;
+ font-size: 10px;
 }
-
 
 .services-contents{
   height:500px;
@@ -73,6 +71,19 @@ a:hover{
 .news h1{
   margin-top: 50px;
 }
+
+.corporate {
+  height: 600px;
+  text-align: center;
+}
+
+.founder{
+  width:50%;
+  height:50%;
+  font-size:15px;
+  float: left;
+}
+
 .access{
   height:400px;
   text-align: center;
@@ -110,14 +121,8 @@ textarea{
 }
 
 /*ここから下はフッター*/
-.footer{
+footer p{
+  color:black;
+  background-color: lightblue;
   height:50px;
-  text-align: right;
-  color: black;
-  width: 1643px;
-  border-top:2px solid black;
-  position: fixed;
-  bottom:0;
-  z-index: 10;
-
 }
