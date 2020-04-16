@@ -120,9 +120,4 @@ textarea{
   cursor: pointer;
 }
 
-/*ここから下はフッター*/
-footer p{
-  color:black;
-  background-color: lightblue;
-  height:50px;
-}
+
